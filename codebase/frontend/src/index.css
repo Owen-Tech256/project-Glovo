@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme {
+  /* Color tokens -------------------------------------------------------- */
+  --color-ink: #12181f;
+  --color-ink-soft: #4a545e;
+  --color-paper: #f6f6f3;
+  --color-paper-raised: #ffffff;
+  --color-primary: #2a5d4c;
+  --color-primary-dark: #16332a;
+  --color-primary-soft: #e4efe9;
+  --color-accent: #ff6a39;
+  --color-accent-soft: #ffe4d9;
+  --color-line: #dedcd3;
+  --color-line-strong: #c7c4b8;
+  --color-danger: #c0392b;
+  --color-danger-soft: #fbe6e3;
+  --color-warning: #a5680f;
+  --color-warning-soft: #f8ecd6;
+
+  /* Type ------------------------------------------------------------------ */
+  --font-display: "Space Grotesk", "Segoe UI", sans-serif;
+  --font-body: "Inter", "Segoe UI", sans-serif;
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 14px;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-body);
+    color: var(--color-ink);
+    background-color: var(--color-paper);
+  }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    letter-spacing: -0.01em;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+
+  ::selection {
+    background-color: var(--color-primary);
+    color: var(--color-paper);
+  }
+}
+
+@layer utilities {
+  .route-dash {
+    stroke-dasharray: 6 7;
+  }
+}

@@ -1,0 +1,2 @@
+date_from,date_to,total_payment_attempts,successful_payments,payment_success_rate,gross_revenue,platform_commission_revenue,platform_ad_revenue,total_refunded,vendor_payouts_paid,rider_earnings_accrued,net_platform_revenue
+2026-08-15T19:08:26.228418+00:00,2026-09-14T19:08:26.228418+00:00,1,1,1.0,12.98,1.50,0.00,0.00,0.00,2.99,1.50

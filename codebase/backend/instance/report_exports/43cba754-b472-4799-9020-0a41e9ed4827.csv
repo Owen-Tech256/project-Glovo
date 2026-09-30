@@ -1,0 +1,2 @@
+date_from,date_to,total_deliveries,completed_deliveries,cancelled_deliveries,failure_rate,avg_assignment_seconds,avg_pickup_seconds,avg_total_duration_seconds
+2026-08-15T18:59:47.781071+00:00,2026-09-14T18:59:47.781071+00:00,0,0,0,0,None,None,None
